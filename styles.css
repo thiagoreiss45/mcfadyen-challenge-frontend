@@ -65,22 +65,22 @@ body {
   }
   
 #wbn-slider {
-display:flex;
-position: relative;
-height: 30vw;
-overflow: hidden;
+	display:flex;
+	position: relative;
+	height: 30vw;
+	overflow: hidden;
 }
 .wbn-slide {
-position: absolute;
-width: 100%;
-z-index: 500;
-height: 50vw;
+	position: absolute;
+	width: 100%;
+	z-index: 500;
+	height: 50vw;
 }
 .wbn-slide img {
-object-fit: cover;
-width: 100%;
-height: 100%;
-pointer-events: none;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
 }
 @media only screen and (max-width: 800px) {
 	#wbn-slider{
@@ -92,25 +92,25 @@ pointer-events: none;
 }
 
 .active {
-z-index: 1000;
+	z-index: 1000;
 }
 
 .slideInLeft {
-animation-name: animateInLeft;
-z-index: 1000;
+	animation-name: animateInLeft;
+	z-index: 1000;
 }
 
 .slideInRight {
-animation-name: animateInRight;
-z-index: 1000;
+	animation-name: animateInRight;
+	z-index: 1000;
 }
 
 .slideOutLeft {
-transform: translateX(-100%);
+	transform: translateX(-100%);
 }
 
 .slideOutRight {
-transform: translateX(100%);
+	transform: translateX(100%);
 }
 
 @keyframes animateInLeft {
