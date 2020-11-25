@@ -349,7 +349,7 @@ footer div a{
 }
 @media only screen and (max-width: 1090px){
 	footer{
-		bottom:0;
+		bottom:auto;
 	}
 }
 @media only screen and (max-width: 800px){
