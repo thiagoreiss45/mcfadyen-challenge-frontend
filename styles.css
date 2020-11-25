@@ -327,6 +327,7 @@ footer{
 	min-height: 6vh;
 	height: 6vh;
 	vertical-align: middle;
+	position: absolute;
 }
 footer div{
 	height: 100%;
